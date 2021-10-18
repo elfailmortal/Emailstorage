@@ -50,7 +50,7 @@ class entity_add:
         self.email = e
         self.window = master
     def write(self):
-        f = open(' ', 'a')
+        f = open('emails.txt', 'a')
         """
         In the first arg you will put the name of the text file with the .txt extension / aquí añadiras el nombre del documento de texto donde almacenaras los correos con la extens
         """
